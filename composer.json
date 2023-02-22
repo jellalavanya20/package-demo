@@ -1,0 +1,27 @@
+{
+    "name": "indianic/package_demo",
+    "description": "Test Package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Indianic\\PackageDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jellalavanya",
+            "email": "jella.p.lavanya@happiestminds.com"
+        }
+    ],
+    "require": {
+        "laravel/nova": "^4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Indianic\\PackageDemo\\PackageDemoServiceProvider"
+            ]
+        }
+    }
+}
