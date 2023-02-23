@@ -1,6 +1,6 @@
 <?php
 
-namespace NewIndianic\PackageDemo\Nova;
+namespace Newindianic\PackageDemo\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
@@ -16,9 +16,9 @@ class Article extends Resource
     /**
      * The model the resource corresponds to.
      *
-     * @var class-string<\NewIndianic\PackageDemo\Models\Article>
+     * @var class-string<\Newindianic\PackageDemo\Models\Article>
      */
-    public static $model = \NewIndianic\PackageDemo\Models\Article::class;
+    public static $model = \Newindianic\PackageDemo\Models\Article::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.

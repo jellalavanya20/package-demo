@@ -1,11 +1,11 @@
 <?php
 
-namespace NewIndianic\PackageDemo\Models;
+namespace Newindianic\PackageDemo\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notifiable;
-use NewIndianic\PackageDemo\Models\Comment;
+use Newindianic\PackageDemo\Models\Comment;
 
 class Article extends Model
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace NewIndianic\PackageDemo\Models;
+namespace Newindianic\PackageDemo\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use NewIndianic\PackageDemo\Models\Article;
+use Newindianic\PackageDemo\Models\Article;
 
 class Comment extends Model
 {
