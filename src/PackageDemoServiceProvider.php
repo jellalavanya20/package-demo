@@ -1,8 +1,8 @@
 <?php
-namespace Indianic\PackageDemo;
+namespace NewIndianic\PackageDemo;
 
-use Indianic\PackageDemo\Nova\Resources\Article;
-use Indianic\PackageDemo\Nova\Resources\Comment;
+use NewIndianic\PackageDemo\Nova\Resources\Article;
+use NewIndianic\PackageDemo\Nova\Resources\Comment;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\ServiceProvider;

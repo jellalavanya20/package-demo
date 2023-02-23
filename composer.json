@@ -1,5 +1,5 @@
 {
-    "name": "indianic/package_demo",
+    "name": "newindianic/package_demo",
     "description": "Test Package",
     "type": "library",
     "license": "MIT",
@@ -20,7 +20,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Indianic\\PackageDemo\\PackageDemoServiceProvider"
+                "NewIndianic\\PackageDemo\\PackageDemoServiceProvider"
             ]
         }
     }

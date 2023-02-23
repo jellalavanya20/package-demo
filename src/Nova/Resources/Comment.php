@@ -1,6 +1,6 @@
 <?php
 
-namespace Indianic\PackageDemo\Nova;
+namespace NewIndianic\PackageDemo\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
@@ -13,9 +13,9 @@ class Comment extends Resource
     /**
      * The model the resource corresponds to.
      *
-     * @var class-string<\Indianic\PackageDemo\Models\Comment>
+     * @var class-string<\NewIndianic\PackageDemo\Models\Comment>
      */
-    public static $model = \Indianic\PackageDemo\Models\Comment::class;
+    public static $model = \NewIndianic\PackageDemo\Models\Comment::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
